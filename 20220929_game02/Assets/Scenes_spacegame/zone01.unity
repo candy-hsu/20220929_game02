@@ -879,48 +879,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &716805094 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8042153351424944332, guid: 1027b72f91b89d54692078af7f3f200a, type: 3}
-  m_PrefabInstance: {fileID: 8042153350778534698}
-  m_PrefabAsset: {fileID: 0}
---- !u!58 &716805098
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 716805094}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.1, y: 0}
-  serializedVersion: 2
-  m_Radius: 1
---- !u!50 &716805099
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 716805094}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!1 &723983046
 GameObject:
   m_ObjectHideFlags: 0
@@ -2191,27 +2149,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fc1307585e5fc041a2c46570864e79b, type: 3}
---- !u!1 &1885983788 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3771993016460224255, guid: 6fc1307585e5fc041a2c46570864e79b, type: 3}
-  m_PrefabInstance: {fileID: 1885983787}
-  m_PrefabAsset: {fileID: 0}
---- !u!70 &1885983789
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1885983788}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 1.3571428, y: 0.42857143}
-  m_Direction: 1
 --- !u!1 &1919354938
 GameObject:
   m_ObjectHideFlags: 0
@@ -2589,7 +2526,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8042153351424944323, guid: 1027b72f91b89d54692078af7f3f200a, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8042153351424944323, guid: 1027b72f91b89d54692078af7f3f200a, type: 3}
       propertyPath: m_LocalPosition.x

@@ -14,6 +14,16 @@ namespace Uzai
          */
         //A a 不同字
         #endregion
+        #region 事件
+        private void Awake()
+        {
+
+        }
+        private void Start()
+        {
+
+        }
+        #endregion
+
     }
 }
-

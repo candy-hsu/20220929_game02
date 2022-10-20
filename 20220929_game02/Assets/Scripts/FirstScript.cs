@@ -19,9 +19,9 @@ namespace Uzai
         {
             print("Hello world!");
         }
-        private void Start()
+        private void Update()
         {
-
+            print("<b><color=#800080ff>§Ú¶W¯ÅÁo©ú</color></b>");
         }
         #endregion
 

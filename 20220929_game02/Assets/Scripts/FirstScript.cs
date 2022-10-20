@@ -17,7 +17,7 @@ namespace Uzai
         #region ¨Æ¥ó
         private void Awake()
         {
-
+            print("Hello world!");
         }
         private void Start()
         {

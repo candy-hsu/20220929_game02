@@ -1,48 +1,48 @@
-
+ï»¿
 using UnityEngine;
 namespace Uzai
 {
     /// <summary>
-    /// Äæ¦ìªº½m²ß
+    /// æ¬„ä½çš„ç·´ç¿’
     /// </summary>
 
     public class LearnField : MonoBehaviour
     {
-        #region Äæ¦ì »yªk private
-        //Äæ¦ì Field Àx¦s¸ê®Æ
-        //»yªk¡G
-        //private ­×¹¢µü ¨p¤H ¶È¦b¦¹Ãş§O¤º¯à°÷Àx¦s,¤£Åã¥Ü
-        //int ¸ê®ÆÃş«¬ ¾ã¼Æ
-        //level Äæ¦ì¦WºÙ ¥i§ó§ï¸Ó¦WºÙ
+        #region æ¬„ä½ èªæ³• private
+        //æ¬„ä½ Field å„²å­˜è³‡æ–™
+        //èªæ³•ï¼š
+        //private ä¿®é£¾è© ç§äºº åƒ…åœ¨æ­¤é¡åˆ¥å…§èƒ½å¤ å„²å­˜,ä¸é¡¯ç¤º
+        //int è³‡æ–™é¡å‹ æ•´æ•¸
+        //level æ¬„ä½åç¨± å¯æ›´æ”¹è©²åç¨±
         private int Level;
         #endregion
 
-        #region Äæ¦ì »yªk public ¸ê®ÆÃş«¬
-        //µ¥©ó «ü©w²Å¸¹ ±N¥kÃäªºµ²ªG«ü©wµ¹¥ªÃä
-        //public ¤½¶} ©Ò¦³Ãş§O³£¯à°÷¦s¨ú,Åã¥Ü
-        //int ¾ã¼Æ
+        #region æ¬„ä½ èªæ³• public è³‡æ–™é¡å‹
+        //ç­‰æ–¼ æŒ‡å®šç¬¦è™Ÿ å°‡å³é‚Šçš„çµæœæŒ‡å®šçµ¦å·¦é‚Š
+        //public å…¬é–‹ æ‰€æœ‰é¡åˆ¥éƒ½èƒ½å¤ å­˜å–,é¡¯ç¤º
+        //int æ•´æ•¸
         public int Enemy = 100;
-        //string ¤å¦r
-        public string nameplayer = "¬ü¤k";
-        //float ¤p¼ÆÂI «á¥[f
+        //string æ–‡å­—
+        public string nameplayer = "ç¾å¥³";
+        //float å°æ•¸é» å¾ŒåŠ f
         public float Speed = 5.5f;
         public float Jump = 7.8f;
-        //bool ¥¬ªL­È false true
+        //bool å¸ƒæ—å€¼ false true
         public bool isPass = false;
         public bool hasWeapon = true;
         #endregion
 
-        #region Äæ¦ìÄİ©Ê
-        //Header ¼ĞÃD
-        [Header("¦å¶q")]
+        #region æ¬„ä½å±¬æ€§
+        //Header æ¨™é¡Œ
+        [Header("è¡€é‡")]
         public int hp = 5;
-        //Tooltip ´£¥Ü
-        [Tooltip("ª±®a¥´±Ñ¼Ä¤Hªº®É¶¡­­¨î¡C")]
+        //Tooltip æç¤º
+        [Tooltip("ç©å®¶æ‰“æ•—æ•µäººçš„æ™‚é–“é™åˆ¶ã€‚")]
         public float Time = 8.8f;
-        //Range ½d³ò (³Ì¤p­È,³Ì¤j­È) ¤£¤ä´©int.float¤§¥~ªº¸ê®ÆÃş«¬
+        //Range ç¯„åœ (æœ€å°å€¼,æœ€å¤§å€¼) ä¸æ”¯æ´int.floatä¹‹å¤–çš„è³‡æ–™é¡å‹
         [Range(1, 99)]
         public int Lv = 1;
-        //Serialize Field §Ç¦C¤ÆÄæ¦ì Åã¥Ü¨p¤HÄæ¦ì
+        //Serialize Field åºåˆ—åŒ–æ¬„ä½ é¡¯ç¤ºç§äººæ¬„ä½
         [SerializeField]
         private float CountBoom = 5.5f;
         #endregion

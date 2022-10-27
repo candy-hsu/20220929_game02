@@ -1,19 +1,19 @@
-
+ï»¿
 using UnityEngine;
 
 namespace Uzai
 {
     ///<summary>
-    ///²¾°Ê¨t²Î
+    ///ç§»å‹•ç³»çµ±
     ///</summary>
     public class MoveSystem : MonoBehaviour
     {
-        [SerializeField, Header("²¾°Ê³t«×"), Range(-10, 0)]
+        [SerializeField, Header("ç§»å‹•é€Ÿåº¦"), Range(-10, 0)]
         private float speed = -2.5f;
         
-        //transform ¤¸¥ó
-        //Translate(x, y, z) ¦ì²¾
-        //Time.deltaTime ¨C¬í´V¼Æªá¶Oªº®É¶¡
+        //transform å…ƒä»¶
+        //Translate(x, y, z) ä½ç§»
+        //Time.deltaTime æ¯ç§’å¹€æ•¸èŠ±è²»çš„æ™‚é–“
         private void Update()
         {
             transform.Translate(speed * Time.deltaTime, 0, 0);

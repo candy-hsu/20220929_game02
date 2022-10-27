@@ -1,27 +1,27 @@
-
+ï»¿
 using UnityEngine;
 namespace Uzai
 {
     /// <summary>
-    /// ²Ä¤@¦¸ªºC++
+    /// ç¬¬ä¸€æ¬¡çš„C++
     /// </summary>
     public class FirstScript : MonoBehaviour
     {
-        #region µù¸Ñ
-        // ³æ¦æµù¸Ñ
-        /* ¦h¦æµù¸Ñ
+        #region è¨»è§£
+        // å–®è¡Œè¨»è§£
+        /* å¤šè¡Œè¨»è§£
          * 
          */
-        //A a ¤£¦P¦r
+        //A a ä¸åŒå­—
         #endregion
-        #region ¨Æ¥ó
+        #region äº‹ä»¶
         private void Awake()
         {
             print("Hello world!");
         }
         private void Update()
         {
-            print("<b><color=#800080ff>§Ú¶W¯ÅÁo©ú</color></b>");
+            print("<b><color=#800080ff>æˆ‘è¶…ç´šè°æ˜</color></b>");
         }
         #endregion
 

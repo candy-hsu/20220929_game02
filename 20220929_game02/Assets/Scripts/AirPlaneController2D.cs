@@ -1,18 +1,18 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 namespace Uzai
 {
     /// <summary>
-    /// ­¸¾÷±±¨î¾¹2D¼Ò¦¡
+    /// é£›æ©Ÿæ§åˆ¶å™¨2Dæ¨¡å¼
     /// </summary>
 public class AirPlaneController2D : MonoBehaviour
 {
-        [Header("²¾°Ê³t«×")]
+        [Header("ç§»å‹•é€Ÿåº¦")]
         [SerializeField, Range(0, 10)]
-        private float SpeedVeatical = 3.5f;
+        private float SpeedVertical = 3.5f;
         [SerializeField, Range(0, 10)]
         private float SpeedHorizontal = 4;
 
-        [Header("¹Ï¤ù")]
+        [Header("åœ–ç‰‡")]
         [SerializeField]
         private Sprite PictureUp;
         [SerializeField]
@@ -20,9 +20,21 @@ public class AirPlaneController2D : MonoBehaviour
         [SerializeField]
         private Sprite PictureDown;
 
+        
+
         private void Update()
         {
-            transform.Translate(SpeedHorizontal * Time.deltaTime, SpeedVeatical * Time.deltaTime, 0);
+            //ä¸Šä¸‹ ws Vertical
+            //å·¦å³ ad Horizontal
+            //ä¸Š W +1
+            //ä¸‹ S -1
+            //å³ D +1
+            //å·¦ A -1
+            //æ²’æŒ‰ 0
+            float v = Input.GetAxis("Vertical");
+            float h = Input.GetAxis("Horizontal");
+
+            transform.Translate(SpeedHorizontal * Time.deltaTime * h, SpeedVertical * Time.deltaTime * v, 0);
         }
 
 

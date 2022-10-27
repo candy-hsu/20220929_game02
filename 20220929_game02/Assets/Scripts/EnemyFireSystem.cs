@@ -1,8 +1,8 @@
-using UnityEngine;
+﻿using UnityEngine;
 namespace Uzai
 {
     /// <summary>
-    /// �ĤH�o�g
+    /// 敵人發射
     /// </summary>
     public class EnemyFireSystem : FireSystemBase
     {

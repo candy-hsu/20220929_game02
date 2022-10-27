@@ -1,9 +1,9 @@
-
+ï»¿
 using UnityEngine;
 namespace Uzai
 {
     /// <summary>
-    /// ª±®aµo®g
+    /// çŽ©å®¶ç™¼å°„
     /// </summary>
     public class PlayerFireSytem : FireSystemBase
     {

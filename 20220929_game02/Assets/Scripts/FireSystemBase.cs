@@ -1,16 +1,16 @@
-
+ï»¿
 using UnityEngine;
 namespace Uzai
 {
     /// <summary>
-    /// µo®g¨t²Î°ò©³Ãş§O
-    /// ¥Í¦¨¤l¼u
+    /// ç™¼å°„ç³»çµ±åŸºåº•é¡åˆ¥
+    /// ç”Ÿæˆå­å½ˆ
     /// </summary>
     public class FireSystemBase : MonoBehaviour
     {
-        [SerializeField, Header("¤l¼u¹w»sª«")]
+        [SerializeField, Header("å­å½ˆé è£½ç‰©")]
         private GameObject prefabBullet;
-        [SerializeField, Header("¤l¼u¥Í¦¨ÂI")]
+        [SerializeField, Header("å­å½ˆç”Ÿæˆé»")]
         private Transform pointSpawn;
     }
 }

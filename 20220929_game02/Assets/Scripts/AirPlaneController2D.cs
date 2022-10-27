@@ -20,9 +20,14 @@ public class AirPlaneController2D : MonoBehaviour
         [SerializeField]
         private Sprite PictureDown;
 
+        private void Update()
+        {
+            transform.Translate(SpeedHorizontal * Time.deltaTime, SpeedVeatical * Time.deltaTime, 0);
+        }
 
 
-}
+
+    }
 
 }
 

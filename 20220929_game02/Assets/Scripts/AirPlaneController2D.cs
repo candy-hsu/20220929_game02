@@ -20,6 +20,10 @@ public class AirPlaneController2D : MonoBehaviour
         [SerializeField]
         private Sprite PictureDown;
 
+        //控制unity已有的元件 unity名稱去掉空格
+        [SerializeField, Header("圖片渲染元件")]
+        private SpriteRenderer spr;
+
         
 
         private void Update()
@@ -35,6 +39,27 @@ public class AirPlaneController2D : MonoBehaviour
             float h = Input.GetAxis("Horizontal");
 
             transform.Translate(SpeedHorizontal * Time.deltaTime * h, SpeedVertical * Time.deltaTime * v, 0);
+            
+            //判斷式 如果 v 大於 0 換成 往上((等於要是兩個
+            //元件裡的物件開頭的大寫改成小寫 空格一樣消除
+            if (v > 0)
+            {
+                print("往上");
+
+                spr.sprite = PictureUp;
+            }
+            if (v < 0)
+            {
+                print("往下");
+
+                spr.sprite = PictureDown;
+            }
+            if (v == 0)
+            {
+                print("中間");
+
+                spr.sprite = PictureMiddle;
+            }
         }
 
 

@@ -1715,25 +1715,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1452716225}
   m_CullTransparentMesh: 1
---- !u!1 &1468972455 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8042153351424944332, guid: 1027b72f91b89d54692078af7f3f200a, type: 3}
-  m_PrefabInstance: {fileID: 8042153350778534698}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1468972461
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1468972455}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2e042138a8759f64599ac14c5b8938a3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefabBullet: {fileID: 0}
-  pointSpawn: {fileID: 8042153350778534699}
 --- !u!1 &1492477314
 GameObject:
   m_ObjectHideFlags: 0
@@ -2827,8 +2808,3 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1027b72f91b89d54692078af7f3f200a, type: 3}
---- !u!4 &8042153350778534699 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4624975003085213964, guid: 1027b72f91b89d54692078af7f3f200a, type: 3}
-  m_PrefabInstance: {fileID: 8042153350778534698}
-  m_PrefabAsset: {fileID: 0}
